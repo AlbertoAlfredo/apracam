@@ -1,7 +1,7 @@
 {
   "name": "apracam",
   "version": "0.0.1",
-  "homepage": "https://projeto-aeon.github.io/projeto-aeon/",
+  "homepage": "https://albertoalfredo.github.io/apracam/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
