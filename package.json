@@ -1,0 +1,26 @@
+{
+  "name": "apracam",
+  "version": "0.0.1",
+  "homepage": "https://projeto-aeon.github.io/projeto-aeon/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.5"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ]
+}
