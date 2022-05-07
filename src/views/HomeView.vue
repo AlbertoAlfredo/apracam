@@ -63,6 +63,29 @@
       <p>Pode se associar, Todo cidadão de bem, pessoa física ou jurídica que compreendam a importância e os benefícios dos derivados do <span>Cannabis</span></p>
       <p>O associado pode se enquadrar em três categorias de membros associados: MEMBROS BENEMÉRITOS, MEMBROS CONTRIBUINTES, MEMBROS SOCIAIS</p>
     </section>
+    <section>
+      <h2>VANTAGENS AO SER<br/> UM ASSOCIADO</h2>
+      <div>
+        <img src="" alt="">
+        <p>Desconto em cursos</p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <p>Acesso a informação segura e atualizada</p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <p>Consulta médica com prescritores de cannabis</p>
+      </div>
+      <div>
+        <img src="" alt="">
+        <p>Inclusão nos grupos de pacientes para troca de experiência</p>
+      </div>
+      <div>
+        Mensalidade será paga via internet no valor de R$30,00 ou R$50,00 (valor para associar-se na APRACAM). Todo Membro Contribuinte receberá uma carteirinha de associado com número de matrícula e dados pessoais.
+      </div>
+      <div>ASSOSSIECE AGORA</div>
+    </section>
   </main>
 </template>
 <style scoped>
