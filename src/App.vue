@@ -29,6 +29,13 @@ import HelloWorld from '@/components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <footer class="flex-container flex-around" style="align-items: flex-end">
+        <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" width="200"/></RouterLink>
+        <div>
+          Nos acompanhe nas redes sociais
+          Inscreva-se na nossa newsletter
+        </div>
+      </footer>
 </template>
 
 <style>
@@ -50,6 +57,10 @@ import HelloWorld from '@/components/HelloWorld.vue'
   font-weight: bold;
   font-style: oblique;
 }
+hr{
+  border: none;
+  height: 4vw;
+}
  h1, p, div, a{
     font-family: altone;
   }
@@ -65,7 +76,7 @@ a{
   justify-content: space-around;
 }
 .link-header{
-  color: #AEDE00;
+  color: var(--vt-green1);
 }
 
 @media (min-width: 1024px) {

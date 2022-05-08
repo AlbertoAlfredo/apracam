@@ -10,6 +10,12 @@
 
   --vt-c-indigo: #2c3e50;
 
+  --vt-green1: #AEDE00;
+  --vt-green2: #93BC00;
+  --vt-green3: #309A57;
+  --vt-green4: #24613C;
+  --vt-green5: #1E5A33;
+
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
   --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
@@ -19,6 +25,8 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
+
 }
 
 /* semantic color variables for this project */

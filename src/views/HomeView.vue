@@ -2,13 +2,16 @@
 <template>
   <main>
     <section id="banner">
-      <h1>ASSOCIAÇÃO PARANAENSE <br/> DE APOIO A CANABIS <br/> MEDINAL - APRACAM</h1>
-      <h2>Conheça os benefícios que o auto cultivo do cnabis<br/> medicinal pode trazer e agregar na qualidade de vida</h2>
-      <div>
+      <div class="text-banner">
+      <h2>ASSOCIAÇÃO PARANAENSE <br/> DE APOIO A CANABIS <br/> MEDINAL - APRACAM</h2>
+      <h3>Conheça os benefícios que o auto cultivo do cnabis<br/> medicinal pode trazer e agregar na qualidade de vida</h3>
+      <div class="flex-container">
         <RouterLink to="/associate">
           <div style="
-            background-color: #AEDE00;
-            color: #1E5A33;
+            background-color: #fff;
+            color: var(--vt-green1);
+            border: #fff solid;
+            margin: 2vw 0;
             padding: 1vw 3vw;
             border-radius: 10px;
             font-weight: bold;
@@ -16,25 +19,44 @@
         </RouterLink>
         <RouterLink to="/associate">
           <div style="
-            background-color: #AEDE00;
-            color: #1E5A33;
+            background-color: #fff0;
+            color: #fff;
+            border: #fff solid;
+            margin: 2vw;
             padding: 1vw 3vw;
             border-radius: 10px;
             font-weight: bold;
           " >Torna-se<br/>um Associado</div>
         </RouterLink>
-        <div>
-          <div>
-            <img style="width: 4vw;" src="@/assets/img/ICONES/ATENDENTE.png" alt="Icone de atendente">
+        </div>
+        </div>
+        <div class="container-fluid flex-container" style="justify-content: end;">
+          <div
+        style="
+          background-image: linear-gradient(to right, var(--vt-green3) , var(--vt-green4));
+          top: 2vw;
+          padding: 2vw;
+          width: 50%;
+          font-size: 1vw;
+          border-radius: 0 0 0 40px ;
+          color: #fff;
+        "
+        class="flex-container">
+          <div class="flex-container">
+            <img style="width: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/ATENDENTE.png" alt="Icone de atendente">
             <p>Quer saber mais?<br/>Fale com um consultor</p>
           </div>
-          <div>
-            <img style="width: 4vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
+          <div style="width: 2vw"></div>
+          <div class="flex-container">
+            <img style="width: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
             <p>Nossos Feedback<br/>O que estão falando</p>
           </div>
         </div>
-      </div>
+        </div>
+        
+      
     </section>
+    <hr>
     <section>
 
         <h2>QUEM SOMOS</h2>
@@ -86,6 +108,32 @@
       </div>
       <div>ASSOSSIECE AGORA</div>
     </section>
+    <section>
+      <div><img src="" alt=""></div>
+      <div>
+        <h2>Conheça Depoimentos de quem já se tornou nosso Associado.</h2>
+        <img src="" alt="">
+        <p>‘’Depois que me associei ao Apracam, obtive diversos beneficio e melhorei bastante, e conseguir aprender com os outros associados a melhor forma e beneficio que o cannabis pode trazer.’’</p>
+        <p><span>Fernando Luiz</span><br/><span>Associado desde 2019</span></p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>Preencha o formulário e receva o contado da nossa Equipe</h2>
+        <p>Não se preocupe, o nosso contato é sem compormisso. Você só irá se tornar nosso um de nossos associados se for benéfico para você.</p>
+      </div>
+      <div>
+        <form>
+          <label for="celular">First name:</label>
+          <input type="tel" id="celular" name="celular"><br/>
+          <label for="nome">First name:</label>
+          <input type="text" id="nome" name="nome"><br/>
+          <label for="email">First name:</label>
+          <input type="email" id="email" name="email"><br/>
+          <button>Receber contato da Equipe</button>
+        </form>
+      </div>
+    </section>
   </main>
 </template>
 <style scoped>
@@ -94,5 +142,22 @@
     background-size: cover;
     width: 100%;
     min-height: 30vw;
+  }
+  
+</style>
+<style>
+.text-banner{
+    color: #fff;
+    font-size: 2.4vw;
+    line-height: 1;
+    padding: 4vw;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .text-banner h2{
+    font-weight: bold;
+  }
+  .container-fluid{
+    width: 100%;
   }
 </style>
