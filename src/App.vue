@@ -39,6 +39,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style>
 @import '@/assets/base.css';
+@import '@/../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+/* node_modules\bootstrap-icons\font\bootstrap-icons.css */
 
 @font-face {
   font-family: altone;

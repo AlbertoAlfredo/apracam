@@ -10,6 +10,7 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.8.1",
     "gh-pages": "^3.2.3",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"

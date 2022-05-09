@@ -1,4 +1,3 @@
-
 <template>
   <main>
     <section id="banner">
@@ -57,14 +56,17 @@
       
     </section>
     <hr>
-    <section>
+    <section class="container">
 
-        <h2>QUEM SOMOS</h2>
+        <h2 class="text-banner-green">QUEM SOMOS</h2>
         <p>Somos a ASSOCIAÇÃO PARANAENSE DE APOIO A CANNABIS MEDICINAL (APRACAM), fundada em 10 de dezembro de 2019 e registrada em 19 de fevereiro de 2020 no município de Umuarama, Paraná, Brasil, inscrita no CNPJ: 36.716.085/0001-56. Surgimos pela demanda emergente local de prover os benefícios medicinais da Cannabis para a população que necessita. </p>
 
     </section>
     <section>
-      <div>
+      <img src="@/assets/img/visao.png" alt="Nossa Visao"
+        style="width: 100%;"
+      >
+      <!-- <div>
         <img style="width: 4vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
         <h2>MISSÃO</h2>
         <p>Agregar melhoria na qualidade de vida das pessoas, informar sobre o direito ao auto cultivo,..</p>
@@ -79,7 +81,7 @@
         <img style="width: 4vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
         <h2>VALORES</h2>
         <p>Trabalho sério, honestidade, justiça, respeito à natureza, cumprir com a constituição nacional, sustentab... </p>
-      </div>
+      </div> -->
     </section>
     <section>
       <p>Pode se associar, Todo cidadão de bem, pessoa física ou jurídica que compreendam a importância e os benefícios dos derivados do <span>Cannabis</span></p>
@@ -155,6 +157,21 @@
     text-justify: inter-word;
   }
   .text-banner h2{
+    font-weight: bold;
+  }
+  .text-banner-green{
+    color: var(--vt-green1);
+    font-size: 4vw;
+    font-weight: bolder;
+    line-height: 1;
+    padding: 4vw 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .container{
+    margin: 4vw 6vw;
+  }
+  .text-banner-green h2{
     font-weight: bold;
   }
   .container-fluid{
