@@ -12,5 +12,5 @@ export default defineConfig({
     }
   },
   mode: "development",
-  base: " "
+  base: "./"
 })
