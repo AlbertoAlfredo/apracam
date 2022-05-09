@@ -62,7 +62,7 @@
         <p>Somos a ASSOCIAÇÃO PARANAENSE DE APOIO A CANNABIS MEDICINAL (APRACAM), fundada em 10 de dezembro de 2019 e registrada em 19 de fevereiro de 2020 no município de Umuarama, Paraná, Brasil, inscrita no CNPJ: 36.716.085/0001-56. Surgimos pela demanda emergente local de prover os benefícios medicinais da Cannabis para a população que necessita. </p>
 
     </section>
-    <section>
+    <section style="margin: 8vw 0;">
       <img src="@/assets/img/visao.png" alt="Nossa Visao"
         style="width: 100%;"
       >
@@ -83,32 +83,37 @@
         <p>Trabalho sério, honestidade, justiça, respeito à natureza, cumprir com a constituição nacional, sustentab... </p>
       </div> -->
     </section>
-    <section>
-      <p>Pode se associar, Todo cidadão de bem, pessoa física ou jurídica que compreendam a importância e os benefícios dos derivados do <span>Cannabis</span></p>
-      <p>O associado pode se enquadrar em três categorias de membros associados: MEMBROS BENEMÉRITOS, MEMBROS CONTRIBUINTES, MEMBROS SOCIAIS</p>
+    <section id="banner2" class="text-banner">
+      <h2 style="text-align: center; margin-bottom: 4vw;">Pode se associar, Todo cidadão<br/> de bem, pessoa física ou jurídica<br/> que compreendam a importância<br/> e os benefícios dos derivados<br/> do <span style="color: var(--vt-green1); background-color: #fff;">Cannabis</span></h2>
+      <p style="font-size: 2vw;">O associado pode se enquadrar em três categorias de membros associados: <b>MEMBROS BENEMÉRITOS, MEMBROS CONTRIBUINTES, MEMBROS SOCIAIS</b></p>
     </section>
-    <section>
-      <h2>VANTAGENS AO SER<br/> UM ASSOCIADO</h2>
-      <div>
-        <img src="" alt="">
-        <p>Desconto em cursos</p>
+    <section class="container">
+      <h2 class="text-banner-green">VANTAGENS AO SER<br/> UM ASSOCIADO</h2>
+      <div class="flex-container cards">
+        <div class="card-green">
+          <img src="@/assets/img/ICONES/DESCONTO.png" alt="">
+          <p>Desconto em cursos</p>
+        </div>
+        <div class="card-green">
+          <img src="@/assets/img/ICONES/INFORMACAO.png" alt="">
+          <p>Acesso a informação segura e atualizada</p>
+        </div>
+        <div class="card-green">
+          <img src="@/assets/img/ICONES/MEDICO.png" alt="">
+          <p>Consulta médica com prescritores de cannabis</p>
+        </div>
+        <div class="card-green">
+          <img src="@/assets/img/ICONES/GRUPO.png" alt="">
+          <p>Inclusão nos grupos de pacientes para troca de experiência</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <p>Acesso a informação segura e atualizada</p>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Consulta médica com prescritores de cannabis</p>
-      </div>
-      <div>
-        <img src="" alt="">
-        <p>Inclusão nos grupos de pacientes para troca de experiência</p>
-      </div>
+      
       <div>
         Mensalidade será paga via internet no valor de R$30,00 ou R$50,00 (valor para associar-se na APRACAM). Todo Membro Contribuinte receberá uma carteirinha de associado com número de matrícula e dados pessoais.
       </div>
-      <div>ASSOSSIECE AGORA</div>
+      <div style="display: flex;justify-content: center; margin: 2vw 0">
+      <a href="#" class="botao">ASSOSSIACE AGORA</a>
+      </div>
     </section>
     <section>
       <div><img src="" alt=""></div>
@@ -121,8 +126,8 @@
     </section>
     <section>
       <div>
-        <h2>Preencha o formulário e receva o contado da nossa Equipe</h2>
-        <p>Não se preocupe, o nosso contato é sem compormisso. Você só irá se tornar nosso um de nossos associados se for benéfico para você.</p>
+        <h2>Preencha o formulário e receba o contado da nossa Equipe</h2>
+        <p>Não se preocupe, o nosso contato é sem compromisso. Você só irá se tornar nosso um de nossos associados se for benéfico para você.</p>
       </div>
       <div>
         <form>
@@ -145,19 +150,51 @@
     width: 100%;
     min-height: 30vw;
   }
-  
+  #banner2{
+    background-image: url('@/assets/img/BACKGROUD2.png');
+    background-size: 100% auto ;
+    width: 100%;
+    min-height: 30vw;
+    padding: 6vw 4vw;
+  }
+  .card-green{
+    align-items: center;
+    text-align: center;
+    margin: 0 2vw;
+  }
+  .card-green p{
+    color: var(--vt-green1);
+    font-weight: bold !important;
+  }
+  .card-green img{
+    width: 25%;
+    background-color: var(--vt-green1);
+    padding: 3%;
+    border-radius: 15px;
+  }
+  .botao{
+    background-color: var(--vt-green1);
+    color: #fff !important;
+    font-size: 3vw;
+    padding: 1vw;
+    border-radius: 20px;
+    width: fit-content;
+  }
 </style>
 <style>
 .text-banner{
     color: #fff;
-    font-size: 2.4vw;
+    font-size: 3vw;
+    font-weight: bolder;
     line-height: 1;
     padding: 4vw;
-    text-align: justify;
-    text-justify: inter-word;
   }
   .text-banner h2{
     font-weight: bold;
+    color: #fff;
+  }
+  .text-banner p, .text-banner a{
+    color: #fff;
   }
   .text-banner-green{
     color: var(--vt-green1);
@@ -165,8 +202,6 @@
     font-weight: bolder;
     line-height: 1;
     padding: 4vw 0;
-    text-align: justify;
-    text-justify: inter-word;
   }
   .container{
     margin: 4vw 6vw;
@@ -177,4 +212,5 @@
   .container-fluid{
     width: 100%;
   }
+  
 </style>

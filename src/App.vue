@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
@@ -27,7 +28,8 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
-  <RouterView />
+  <HomeView/>
+  <!-- <RouterView/> -->
   <footer class="flex-container flex-around" style="align-items: flex-end">
         <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" width="200"/></RouterLink>
         <div>
@@ -64,11 +66,15 @@ hr{
 }
  h1, p, div, a{
     font-family: altone;
+    color: var(--vt-green4);
   }
 
 a{
   text-decoration: none !important;
-  color: black;
+  color: var(--vt-green4);
+}
+b{
+  font-weight: bolder;
 }
 .flex-container{
   display: flex;
