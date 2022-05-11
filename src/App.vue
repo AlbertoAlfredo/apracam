@@ -60,6 +60,9 @@ import HomeView from './views/HomeView.vue';
   font-weight: bold;
   font-style: oblique;
 }
+body *{
+  font-size: 1.5vw;
+}
 hr{
   border: none;
   height: 4vw;

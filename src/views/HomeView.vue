@@ -125,20 +125,25 @@
         <p style="font-size: 1.8vw;">Associado desde 2019</p>
       </div>
     </section>
-    <section>
-      <div>
+    <section id="banner3" class="flex-container">
+      <div class="text-banner" style="width: 45vw;">
         <h2>Preencha o formulário e receba o contado da nossa Equipe</h2>
         <p>Não se preocupe, o nosso contato é sem compromisso. Você só irá se tornar nosso um de nossos associados se for benéfico para você.</p>
       </div>
-      <div>
-        <form>
-          <label for="celular">First name:</label>
+      <div style="
+        background-color: #fff;
+        padding: 4vw;
+        border-radius: 100px;
+        box-shadow: 10px 5px 5px #00000090;
+      ">
+        <form class="formulario1">
+          <label for="celular">Celular com DDD:</label><br/>
           <input type="tel" id="celular" name="celular"><br/>
-          <label for="nome">First name:</label>
+          <label for="nome">Seu Nome:</label><br/>
           <input type="text" id="nome" name="nome"><br/>
-          <label for="email">First name:</label>
+          <label for="email">Seu E-mail:</label><br/>
           <input type="email" id="email" name="email"><br/>
-          <button>Receber contato da Equipe</button>
+          <button class="botao" style="font-size: 2vw;">Receber contato da Equipe</button>
         </form>
       </div>
     </section>
@@ -153,6 +158,13 @@
   }
   #banner2{
     background-image: url('@/assets/img/BACKGROUD2.png');
+    background-size: 100% auto ;
+    width: 100%;
+    min-height: 30vw;
+    padding: 6vw 4vw;
+  }
+  #banner3{
+    background-image: url('@/assets/img/BACKGROUD3.png');
     background-size: 100% auto ;
     width: 100%;
     min-height: 30vw;
@@ -180,6 +192,7 @@
     padding: 1vw;
     border-radius: 20px;
     width: fit-content;
+    border: none;
   }
 </style>
 <style>
@@ -193,6 +206,10 @@
   .text-banner h2{
     font-weight: bold;
     color: #fff;
+    font-size: 4vw;
+  }
+  .text-banner h2 span{
+    font-size: 4vw;
   }
   .text-banner p, .text-banner a{
     color: #fff;
@@ -213,5 +230,17 @@
   .container-fluid{
     width: 100%;
   }
-  
+  .formulario1{
+    min-height: 30vw;
+  }
+  .formulario1 input{
+    border: #00000020 solid;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 2vw;
+    margin: 1vw 0;
+  }
+  .formulario1 input:focus{
+    border: var(--vt-green1) solid;
+  }
 </style>
