@@ -82,6 +82,10 @@ b{
 .flex-around{
   justify-content: space-around;
 }
+.flex-center{
+  justify-content: center;
+  align-items: center;
+}
 .link-header{
   color: var(--vt-green1);
 }

@@ -115,13 +115,14 @@
       <a href="#" class="botao">ASSOSSIACE AGORA</a>
       </div>
     </section>
-    <section>
-      <div><img src="" alt=""></div>
-      <div>
-        <h2>Conheça Depoimentos de quem já se tornou nosso Associado.</h2>
-        <img src="" alt="">
-        <p>‘’Depois que me associei ao Apracam, obtive diversos beneficio e melhorei bastante, e conseguir aprender com os outros associados a melhor forma e beneficio que o cannabis pode trazer.’’</p>
-        <p><span>Fernando Luiz</span><br/><span>Associado desde 2019</span></p>
+    <section  class="flex-container flex-center container">
+      <div><img style="width: 40vw;" src="@/assets/img/MENINO.png" alt=""></div>
+      <div class="text-banner-green">
+        <h2 style="font-size: 4vw">Conheça Depoimentos de quem já se tornou nosso Associado.</h2>
+        <img src="@/assets/img/ICONES/DEPOIMENTO.png" style="background-color: var(--vt-green1); padding: 3%; border-radius: 20px; width: 7vw;" alt="">
+        <p style="font-size: 2vw">‘’Depois que me associei ao Apracam, obtive diversos beneficio e melhorei bastante, e conseguir aprender com os outros associados a melhor forma e beneficio que o cannabis pode trazer.’’</p>
+        <p style="font-size: 2vw; color: var(--vt-green1); font-weight: bold;">Fernando Luiz</p>
+        <p style="font-size: 1.8vw;">Associado desde 2019</p>
       </div>
     </section>
     <section>
