@@ -231,7 +231,7 @@
     width: 100%;
   }
   .formulario1{
-    min-height: 30vw;
+    margin-bottom: 0px;
   }
   .formulario1 input{
     border: #00000020 solid;
