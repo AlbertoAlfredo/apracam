@@ -132,17 +132,18 @@
       </div>
       <div style="
         background-color: #fff;
-        padding: 4vw;
+        padding: 6vw;
         border-radius: 100px;
-        box-shadow: 10px 5px 5px #00000090;
+        box-shadow: 10px 5px 5px #f9f9f938;
+        color: #c5c5c5;
       ">
         <form class="formulario1">
           <label for="celular">Celular com DDD:</label><br/>
-          <input type="tel" id="celular" name="celular"><br/>
+          <input type="tel" id="celular" name="celular" placeholder="(00) 0000-00000"><br/>
           <label for="nome">Seu Nome:</label><br/>
-          <input type="text" id="nome" name="nome"><br/>
+          <input type="text" id="nome" name="nome" placeholder="Nome e Sobrenome"><br/>
           <label for="email">Seu E-mail:</label><br/>
-          <input type="email" id="email" name="email"><br/>
+          <input type="email" id="email" name="email" placeholder="Seu e-mail"><br/>
           <button class="botao" style="font-size: 2vw;">Receber contato da Equipe</button>
         </form>
       </div>
@@ -168,7 +169,7 @@
     background-size: 100% auto ;
     width: 100%;
     min-height: 30vw;
-    padding: 6vw 4vw;
+    padding: 14vw 4vw 0 4vw ;
   }
   .card-green{
     align-items: center;
@@ -240,7 +241,11 @@
     font-size: 2vw;
     margin: 1vw 0;
   }
-  .formulario1 input:focus{
+  .formulario1 input:focus, .formulario1 input:focus-visible, .formulario1 textarea:focus, .formulario1 textarea:focus-visible{
     border: var(--vt-green1) solid;
+    outline: none;
+  }
+  .formulario1 label{
+    font-weight: bold;
   }
 </style>

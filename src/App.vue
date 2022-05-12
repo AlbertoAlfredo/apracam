@@ -30,10 +30,11 @@ import HomeView from './views/HomeView.vue';
 
   <HomeView/>
   <!-- <RouterView/> -->
-  <footer class="flex-container flex-around" style="align-items: flex-end">
-        <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" width="200"/></RouterLink>
-        <div>
+  <footer class="flex-container flex-around" style="align-items: flex-end;">
+        <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" width="400"/></RouterLink>
+        <div style="flex-direction: column; color:var(--vt-green1)">
           Nos acompanhe nas redes sociais
+          <div class="green-icons"><i class="bi bi-whatsapp"></i><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
           Inscreva-se na nossa newsletter
         </div>
       </footer>
@@ -59,6 +60,9 @@ import HomeView from './views/HomeView.vue';
   src: url('@/assets/fonts/AltoneTrial-BoldOblique.ttf');
   font-weight: bold;
   font-style: oblique;
+}
+::placeholder{
+  color: #c5c5c5;
 }
 body *{
   font-size: 1.5vw;
@@ -92,7 +96,11 @@ b{
 .link-header{
   color: var(--vt-green1);
 }
-
+.green-icons i{
+  color: var(--vt-green1);
+  font-size: 3vw;
+  margin: 1vw;
+}
 @media (min-width: 1024px) {
   
 }
