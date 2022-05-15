@@ -2,8 +2,8 @@
   <main>
     <section id="banner">
       <div class="text-banner">
-      <h2>ASSOCIAÇÃO PARANAENSE <br/> DE APOIO A CANABIS <br/> MEDINAL - APRACAM</h2>
-      <h3>Conheça os benefícios que o auto cultivo do cnabis<br/> medicinal pode trazer e agregar na qualidade de vida</h3>
+      <h2>ASSOCIAÇÃO PARANAENSE <br/> DE APOIO A CANABIS <br/> MEDICINAL - APRACAM</h2>
+      <h3>Conheça os benefícios que o auto cultivo do canabis<br/> medicinal pode trazer e agregar na qualidade de vida</h3>
       <div class="flex-container">
         <RouterLink to="/associate">
           <div style="
@@ -59,7 +59,7 @@
     <section class="container">
 
         <h2 class="text-banner-green">QUEM SOMOS</h2>
-        <p>Somos a ASSOCIAÇÃO PARANAENSE DE APOIO A CANNABIS MEDICINAL (APRACAM), fundada em 10 de dezembro de 2019 e registrada em 19 de fevereiro de 2020 no município de Umuarama, Paraná, Brasil, inscrita no CNPJ: 36.716.085/0001-56. Surgimos pela demanda emergente local de prover os benefícios medicinais da Cannabis para a população que necessita. </p>
+        <p>Somos a ASSOCIAÇÃO PARANAENSE DE APOIO A CANABIS MEDICINAL (APRACAM), fundada em 10 de dezembro de 2019 e registrada em 19 de fevereiro de 2020 no município de Umuarama, Paraná, Brasil, inscrita no CNPJ: 36.716.085/0001-56. Surgimos pela demanda emergente local de prover os benefícios medicinais da Cannabis para a população que necessita. </p>
 
     </section>
     <section style="margin: 8vw 0;">
