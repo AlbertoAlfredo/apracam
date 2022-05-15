@@ -202,6 +202,10 @@
       padding: 1vw !important;
       margin-bottom: 4vw; 
     }
+    #banner, #banner .flex-container{
+      justify-content: center;
+      text-align: center;
+    }
     #banner3{
     background-image: url('@/assets/img/BACKGROUD1.png');
     background-size: cover;
