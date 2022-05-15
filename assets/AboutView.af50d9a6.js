@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,a as _}from"./index.94da3e13.js";const a={},s={class:"about"},c=_("h1",null,"This is an about page",-1),i=[c];function n(r,u){return t(),o("div",s,i)}var d=e(a,[["render",n],["__file","/home/phoenix/Github/apracam/src/views/AboutView.vue"]]);export{d as default};
