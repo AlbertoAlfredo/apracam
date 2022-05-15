@@ -42,12 +42,12 @@
         "
         class="flex-container">
           <div class="flex-container">
-            <img style="width: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/ATENDENTE.png" alt="Icone de atendente">
+            <img style="width: 4vw; height: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/ATENDENTE.png" alt="Icone de atendente">
             <p>Quer saber mais?<br/>Fale com um consultor</p>
           </div>
           <div style="width: 2vw"></div>
           <div class="flex-container">
-            <img style="width: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
+            <img style="width: 4vw; height: 4vw; margin: 0 1vw;" src="@/assets/img/ICONES/FEEDBACK.png" alt="Icone de feedback">
             <p>Nossos Feedback<br/>O que estão falando</p>
           </div>
         </div>
@@ -130,7 +130,7 @@
         <h2>Preencha o formulário e receba o contado da nossa Equipe</h2>
         <p>Não se preocupe, o nosso contato é sem compromisso. Você só irá se tornar nosso um de nossos associados se for benéfico para você.</p>
       </div>
-      <div style="
+      <div class="container-form" style="
         background-color: #fff;
         padding: 6vw;
         border-radius: 100px;
@@ -195,6 +195,18 @@
     width: fit-content;
     border: none;
   }
+  @media (max-width: 400px) {
+    .container-form{
+      width: 80vw;
+      border-radius: 10px !important;
+      padding: 1vw !important;
+      margin-bottom: 4vw; 
+    }
+    #banner3{
+    background-image: url('@/assets/img/BACKGROUD1.png');
+    background-size: cover;
+  }
+  };
 </style>
 <style>
 .text-banner{

@@ -30,13 +30,13 @@ import HomeView from './views/HomeView.vue';
 
   <HomeView/>
   <!-- <RouterView/> -->
-  <footer class="flex-container flex-around" style="align-items: flex-end;">
-        <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" width="400"/></RouterLink>
-        <div style="flex-direction: column; color:var(--vt-green1)">
-          Nos acompanhe nas redes sociais
-          <div class="green-icons"><i class="bi bi-whatsapp"></i><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
-          Inscreva-se na nossa newsletter
-        </div>
+      <footer class="flex-container flex-around" style="flex-direction: column; align-items: flex-end;">
+          <RouterLink to="/"><img alt="Apracam Logo" class="logo" src="@/assets/img/LOGO.png" style="width: 40vw;"/></RouterLink>
+          <div style="flex-direction: column; color:var(--vt-green1)">
+            Nos acompanhe nas redes sociais
+            <div class="green-icons"><i class="bi bi-whatsapp"></i><i class="bi bi-instagram"></i><i class="bi bi-facebook"></i><i class="bi bi-twitter"></i></div>
+            Inscreva-se na nossa newsletter
+          </div>
       </footer>
 </template>
 
@@ -101,7 +101,10 @@ b{
   font-size: 3vw;
   margin: 1vw;
 }
-@media (min-width: 1024px) {
-  
+@media (max-width: 400px) {
+  section{
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>
